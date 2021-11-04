@@ -1,3 +1,56 @@
-/**
- * Basic typography style for copy text
- */
+@use "../abstracts" as *;
+h1 {
+  font-weight: bold;
+  font-size: 28px;
+  letter-spacing: -0.291667px;
+  color: #ffffff;
+  @media only screen and (min-width: 1000px) {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 55px;
+    letter-spacing: -0.520833px;
+  }
+}
+.main-body {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+input::placeholder {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.25px;
+  color: #3d3b48;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+.try-button {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: 0.267857px;
+  color: #ffffff;
+  .bold-text {
+    font-weight: bold;
+  }
+}
+
+.free-trial {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+.term-services {
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 21px;
+  color: #bab7d4;
+  .text-red {
+    color: #ff7979;
+    font-weight: bold;
+  }
+}

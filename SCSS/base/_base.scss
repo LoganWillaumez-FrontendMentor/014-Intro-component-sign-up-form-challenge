@@ -20,3 +20,13 @@ html {
 *::after {
   box-sizing: inherit;
 }
+body {
+  background: url("../../images/bg-intro-mobile.png") #ff7979;
+  min-height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
