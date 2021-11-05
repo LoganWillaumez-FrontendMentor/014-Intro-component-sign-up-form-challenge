@@ -19,6 +19,8 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 body {
   background: url("../../images/bg-intro-mobile.png") #ff7979;
@@ -29,4 +31,5 @@ body {
   flex-direction: column;
   text-align: center;
   align-items: center;
+  padding: 88px 24px 68px 24px;
 }
