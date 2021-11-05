@@ -22,14 +22,24 @@ html {
 body {
   background: url("../../images/bg-intro-mobile.png") #ff7979;
   min-height: 100vh;
+  width: 100%;
+  place-items: center;
+  display: grid;
 }
 
 .container {
   display: flex;
+  width: 100%;
   flex-direction: column;
   text-align: center;
   align-items: center;
   padding: 88px 24px 68px 24px;
+}
+@media only screen and (min-width: 1000px) {
+  .container {
+    flex-direction: row;
+    max-width: 1110px;
+  }
 }
 
 body {
@@ -41,6 +51,7 @@ h1 {
   font-size: 28px;
   letter-spacing: -0.291667px;
   color: #ffffff;
+  margin-bottom: 16px;
 }
 @media only screen and (min-width: 1000px) {
   h1 {
@@ -103,10 +114,16 @@ input::placeholder {
   box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
   border-radius: 10px;
   border: none;
-  width: 327px;
+  width: 100%;
+  max-width: 475px;
   height: 88px;
   padding: 0 60px;
   margin-bottom: 24px;
+}
+@media only screen and (min-width: 1000px) {
+  .try-button {
+    height: 60px;
+  }
 }
 
 .free-trial {
@@ -116,6 +133,7 @@ input::placeholder {
   box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
   border-radius: 5px;
   border: none;
+  margin-bottom: 8px;
 }
 
 form {
@@ -124,6 +142,8 @@ form {
   border-radius: 10px;
   width: 327px;
   padding: 24px;
+  width: 100%;
+  max-width: 475px;
 }
 
 input {
@@ -144,6 +164,13 @@ input::placeholder {
 
 main {
   margin-bottom: 64px;
+  max-width: 475px;
+}
+@media only screen and (min-width: 1000px) {
+  main {
+    max-width: 525px;
+    text-align: left;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
