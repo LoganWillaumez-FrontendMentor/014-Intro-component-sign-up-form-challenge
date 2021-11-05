@@ -3,7 +3,6 @@ const regExp = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((
 const inputSelect = document.querySelectorAll('input');
 const inputContain = document.querySelectorAll('.input-container')
 const errorList = document.querySelectorAll('.error');
-let isValid = [];
 let value = [];
 btn.addEventListener('click',(e)=>{
     e.preventDefault();
@@ -24,7 +23,6 @@ let verify = (e)=>{
             inputContain[i].classList.add('active')
         }
         else{
-         
             inputContain[i].classList.remove('active')
         }
     }
