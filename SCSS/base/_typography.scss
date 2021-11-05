@@ -55,3 +55,13 @@ input::placeholder {
     font-weight: bold;
   }
 }
+.message-error {
+  color: #ff7979;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 16px;
+  align-self: flex-end;
+  margin-top: 6px;
+  opacity: 0;
+  transition: all 150ms ease-in-out;
+}

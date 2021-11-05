@@ -33,30 +33,66 @@
           thereafter
         </button>
         <form action="">
-          <input
-            type="text"
-            id="first-name"
-            placeholder="First Name"
-            aria-label="first-name"
-          />
-          <input
-            type="text"
-            id="last-name"
-            placeholder="Last Name"
-            aria-label="last-name"
-          />
-          <input
-            type="text"
-            id="e-mail"
-            placeholder=" Email Adress"
-            aria-label="e-mail"
-          />
-          <input
-            type="password"
-            id="password"
-            placeholder="Password"
-            aria-label="password"
-          />
+          <div class="input-container">
+            <input
+              type="text"
+              id="first-name"
+              placeholder="First Name"
+              aria-label="first-name"
+            />
+            <img
+              src="images/icon-error.svg"
+              alt="error icon"
+              aria-hidden="true"
+              class="error"
+            />
+            <p class="message-error">First name cannot be empty</p>
+          </div>
+          <div class="input-container">
+            <input
+              type="text"
+              id="last-name"
+              placeholder="Last Name"
+              aria-label="last-name"
+            />
+            <img
+              src="images/icon-error.svg"
+              alt="error icon"
+              aria-hidden="true"
+              class="error"
+            />
+            <p class="message-error">Last Name cannot be empty</p>
+          </div>
+          <div class="input-container">
+            <input
+              type="text"
+              id="e-mail"
+              placeholder=" Email Adress"
+              aria-label="e-mail"
+            />
+            <img
+              src="images/icon-error.svg"
+              alt="error icon"
+              aria-hidden="true"
+              class="error"
+            />
+            <p class="message-error">Look like this is not an email</p>
+          </div>
+          <div class="input-container">
+            <input
+              type="password"
+              id="password"
+              placeholder="Password"
+              aria-label="password"
+            />
+            <img
+              src="images/icon-error.svg"
+              alt="error icon"
+              aria-hidden="true"
+              class="error last-error"
+            />
+            <p class="message-error password-error">Password cannot be empty</p>
+          </div>
           <button class="free-trial">Claim your free trial</button>
           <p class="term-services">
             By clicking the button, you are agreeing to our
@@ -65,7 +101,6 @@
         </form>
       </aside>
     </div>
-
     <script src="app.js"></script>
   </body>
 </html>
