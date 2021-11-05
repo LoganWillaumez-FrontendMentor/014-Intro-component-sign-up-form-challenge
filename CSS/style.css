@@ -79,15 +79,16 @@ input::placeholder {
   opacity: 0.75;
 }
 
-.try-button {
+.try {
   font-weight: normal;
   font-size: 15px;
   line-height: 26px;
   letter-spacing: 0.267857px;
   color: #ffffff;
 }
-.try-button .bold-text {
+.try .bold-text {
   font-weight: bold;
+  margin-right: 5px;
 }
 
 .free-trial {
@@ -122,28 +123,6 @@ input::placeholder {
 
 button {
   cursor: pointer;
-}
-
-.try-button {
-  background: #5e54a4;
-  box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
-  border-radius: 10px;
-  border: none;
-  width: 100%;
-  max-width: 475px;
-  height: 88px;
-  padding: 0 60px;
-  margin-bottom: 24px;
-  transition: all 250ms ease;
-}
-.try-button:hover {
-  transform: scale(1.05);
-  background: #847bbe;
-}
-@media only screen and (min-width: 1000px) {
-  .try-button {
-    height: 60px;
-  }
 }
 
 .free-trial {
@@ -268,6 +247,26 @@ main {
   main {
     max-width: 525px;
     text-align: left;
+  }
+}
+
+.try {
+  background: #5e54a4;
+  box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+  max-width: 475px;
+  height: 88px;
+  padding: 0 60px;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  transition: all 250ms ease;
+}
+@media only screen and (min-width: 1000px) {
+  .try {
+    height: 60px;
   }
 }
 

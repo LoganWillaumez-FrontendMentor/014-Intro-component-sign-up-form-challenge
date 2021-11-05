@@ -27,7 +27,7 @@ input::placeholder {
   mix-blend-mode: normal;
   opacity: 0.75;
 }
-.try-button {
+.try {
   font-weight: normal;
   font-size: 15px;
   line-height: 26px;
@@ -35,6 +35,7 @@ input::placeholder {
   color: #ffffff;
   .bold-text {
     font-weight: bold;
+    margin-right: 5px;
   }
 }
 
