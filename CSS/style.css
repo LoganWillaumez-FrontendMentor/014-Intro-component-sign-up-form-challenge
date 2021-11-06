@@ -193,7 +193,7 @@ input {
   padding-left: 19px;
 }
 input::placeholder {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 14px;
   line-height: 26px;
   letter-spacing: 0.25px;
