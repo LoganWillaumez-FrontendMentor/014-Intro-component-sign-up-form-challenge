@@ -116,7 +116,6 @@ input::placeholder {
   font-size: 11px;
   line-height: 16px;
   align-self: flex-end;
-  margin-top: 6px;
   opacity: 0;
   visibility: hidden;
   height: 0;
@@ -148,7 +147,7 @@ button {
   display: flex;
   flex-direction: column;
 }
-.input-container#first-name {
+.input-container.first-name {
   margin-top: 0;
 }
 .input-container.active {
@@ -164,6 +163,7 @@ button {
   opacity: 1;
   visibility: visible;
   height: auto;
+  margin-top: 6px;
 }
 
 form {
@@ -176,6 +176,12 @@ form {
   max-width: 475px;
   display: flex;
   flex-direction: column;
+}
+@media only screen and (min-width: 1000px) {
+  form {
+    padding: 40px;
+    width: 540px;
+  }
 }
 
 input {
