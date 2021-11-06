@@ -39,6 +39,7 @@ body {
   .container {
     flex-direction: row;
     max-width: 1110px;
+    padding: 88px 0px 68px 0px;
   }
 }
 
@@ -173,7 +174,6 @@ form {
   width: 327px;
   padding: 24px;
   width: 100%;
-  max-width: 475px;
   display: flex;
   flex-direction: column;
 }
@@ -257,6 +257,8 @@ main {
   main {
     max-width: 525px;
     text-align: left;
+    margin-bottom: 0;
+    margin-right: 45px;
   }
 }
 
@@ -266,7 +268,6 @@ main {
   border-radius: 10px;
   border: none;
   width: 100%;
-  max-width: 475px;
   height: 88px;
   padding: 0 60px;
   margin-bottom: 24px;
