@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  background: url("../../images/bg-intro-mobile.png") #ff7979;
+  background: url("../images/bg-intro-mobile.png") #ff7979;
   min-height: 100vh;
   width: 100%;
   place-items: center;
