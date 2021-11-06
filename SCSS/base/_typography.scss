@@ -64,5 +64,7 @@ input::placeholder {
   align-self: flex-end;
   margin-top: 6px;
   opacity: 0;
+  visibility: hidden;
+  height: 0;
   transition: all 150ms ease-in-out;
 }
