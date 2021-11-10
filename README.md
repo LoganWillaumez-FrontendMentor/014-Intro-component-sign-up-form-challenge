@@ -12,6 +12,6 @@ Front end mentor challenge : [Link](https://www.frontendmentor.io/challenges/bas
   
 ## Demo
 
-https://loganwillaumez.github.io/Intro-component-sign-up-form-challenge/
+https://loganwillaumez-frontendmentor.github.io/014-Intro-component-sign-up-form-challenge/
 
   
